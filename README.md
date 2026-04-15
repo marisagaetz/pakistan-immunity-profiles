@@ -2,7 +2,7 @@
 
 This repository is intended to serve as a partial update or complement to https://github.com/NThakkar-IDM/intensification/. Each file works towards the eventual generation of province-level and national measles immunity profiles for Pakistan (SurvivalPrior.py).
 
-Updates to the intensification codebase include:
+Methodological updates are summarized in Immunity_Profile_Methods_Updates.pdf. Updates to the intensification codebase include these methodological changes, as well as the following:
 1. Unified processing of DHS and MICS data (demography/survey_io.py).
 2. Rewrites of demography code to utilize statsmodels machinery in favor of custom regression code.
 3. Automatic extrapolation (and optional rescaling) of estimated birth rate and MCV coverage trends based on national World Bank and WHO estimates (extrapolate_trends.py).
